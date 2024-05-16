@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Alister_DSPG24_Blog"
@@ -7,9 +8,9 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/Alister03USA
+      - icon: linkedin
+        href: https://www.linkedin.com/in/alister-gan-ee-shern-00831a230/
 format:
   html:
     theme: cosmo
