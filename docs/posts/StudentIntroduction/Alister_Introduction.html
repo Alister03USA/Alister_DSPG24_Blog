@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Alister Gan">
+<meta name="dcterms.date" content="2024-05-16">
 
-<title>Alister_DSPG24_Blog</title>
+<title>Alister_DSPG24_Blog - Alister’s Introduction</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +68,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Alister_DSPG24_Blog</span>
     </a>
   </div>
@@ -149,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -172,151 +114,112 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Alister_DSPG24_Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Alister’s Introduction</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Introduction</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Alister Gan </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 16, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Introduction">Introduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1715835600000" data-listing-file-modified-sort="1715882174530" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
-<p><img src="./posts/post-with-code/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Post With Code</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/post-with-code/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/post-with-code/index.html" class="no-external">This is a post with executable code.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
-<div class="listing-date">
-May 16, 2024
-</div>
-<div class="listing-author">
-Harlow Malloc
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Introduction" data-listing-date-sort="1715835600000" data-listing-file-modified-sort="1715955275521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="654">
-<div class="thumbnail">
-<p><a href="./posts/StudentIntroduction/Alister_Introduction.html" class="no-external"></a></p><a href="./posts/StudentIntroduction/Alister_Introduction.html" class="no-external">
-<p class="card-img-top"><img src="posts\StudentIntroduction\imgs\alisterPhoto.png" alt="Here's a picture of me!"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/StudentIntroduction/Alister_Introduction.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/StudentIntroduction/Alister_Introduction.html" class="no-external">Alister’s Introduction</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/StudentIntroduction/Alister_Introduction.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Introduction'); return false;">
-Introduction
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/StudentIntroduction/Alister_Introduction.html" class="no-external">
+<div style="overflow: hidden;">
+<p><img src="imgs/alisterPhoto.png" alt="Here's a picture of me!" style="width:35%; height:auto; float: left; margin-right: 20px;"></p>
+<section id="personal-background" class="level2">
+<h2 class="anchored" data-anchor-id="personal-background">Personal Background</h2>
+<p style="text-align: justify;">
 Hi, my name is Alister! I originated from Malaysia and I started my journey in Iowa State University during the fall 2023. I’m a sophomore majoring in Data Science.
-</a>
+</p>
+</section>
 </div>
+<p>
+</p><section id="interesting-fact-about-me" class="level2">
+<h2 class="anchored" data-anchor-id="interesting-fact-about-me">Interesting fact about me!</h2>
+<p style="text-align: justify;">
+I am an outdoor enthusiast who spent most of my free time playing sports and hanging out with friends. Occasionally, you will also find me spending hours reading books in local cafes, enjoying a break from the busyness of student life. I would also consider myself a huge movie person and I still recalled my roomates and I spent 10 hours binge watching, “Haunting of the Hill House” during the spring break.
+</p>
+<div style="display: flex; justify-content: space-between;align-items: flex-start;">
+<p><img src="imgs/Soccer.png" style="width: 30%;height:auto; margin-right: 30px;"> <img src="imgs/cafe.jpg" style="width: 30%;height:auto;"></p>
 </div>
-<div class="metadata">
-<a href="./posts/StudentIntroduction/Alister_Introduction.html" class="no-external">
-<div class="listing-date">
-May 16, 2024
-</div>
-<div class="listing-author">
-Alister Gan
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="news" data-listing-date-sort="1715576400000" data-listing-file-modified-sort="1715882174522" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/index.html" class="no-external">This is the first post in a Quarto blog. Welcome!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-May 13, 2024
-</div>
-<div class="listing-author">
-Tristan O’Malley
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+<hr>
+</section>
+<section id="why-data-science" class="level2">
+<h2 class="anchored" data-anchor-id="why-data-science">Why Data Science?</h2>
+<img src="imgs/dataScienceArticle.png" alt="An article that spook my interest in Data Science" style="width:80%; height:auto;">
+<p style="text-align: justify;">
+My interest in Data Science stems from my deep passion to explore and figuring out the underlying meaning behind the data and the vast impact from data findings fascinate me. As people always say, “data is the new future”, pursuing a major in data science allows me to use my skillset in helping the communities to make better decisions through data. After graduation, I plan to pursue a career as a data scientist in the business and finance field. I am drawn to the intricate patterns and strategic decisions that data can unveil in financial markets and business operations. The ability to analyze complex datasets, uncover trends, and make data-driven decisions excites and motivates me. Also, I hope to be able to help the customers to make better financial decisions, identify frauds, reduce risks based on data-driven insights.
+</p>
+</section>
+<section id="goals-and-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="goals-and-objectives">Goals and Objectives</h2>
+<section id="my-experience-with-data-science" class="level4">
+<h4 class="anchored" data-anchor-id="my-experience-with-data-science"><em>My experience with Data Science</em></h4>
+<p style="text-align: justify;">
+I have taken several introductory Data Science courses thus far and I have experience performing data analysis and data visualization on a <a href="https://colab.research.google.com/drive/1p0zVE1mqCLPDYV6vTr5duf3ywg256A8r?usp=sharing">customers purchasing behavior dataset</a> taken from Kaggle. I am familiar with Pandas and Matplotlib using Python to perform data preprocessing, cleaning, analysis and visualization. Working with data in a team setting for the first time was an eye-opening experience as I get to collaborate with students from various background and getting insights and learning from one another. To make full use of my summer, I plan to enroll in several online courses for R and AI to buck up my skills.
+</p>
+</section>
+<section id="three-skills-that-i-would-like-to-learn-from-the-dspg-program" class="level4">
+<h4 class="anchored" data-anchor-id="three-skills-that-i-would-like-to-learn-from-the-dspg-program"><em>Three skills that I would like to learn from the DSPG program</em></h4>
+<p style="text-align: justify;">
+I would love to gain a deeper understanding on AI and its application on a real-world datasets. I would like to use this program as a stepping stone to allow me to apply AI under the guidance of mentors. Besides AI, I would like to use this opportunity to further enhance my programming skills specifically in Python and R. Lastly, beyond the technical skills, I hope to improve my ability to communicate and explain complex technical data findings to non-technical stakeholders.
+</p>
+</section>
+<section id="why-the-three-skills" class="level4">
+<h4 class="anchored" data-anchor-id="why-the-three-skills"><em>Why the three skills</em></h4>
+<p style="text-align: justify;">
+</p><ul>
+<li>Applying AI to real-world datasets allows me to understand practical challenges and develop solutions that are impactful and relevant to industry needs more efficiently</li>
+<li>Having strong programming skills enable me to implement data analysis and visualization effectively as Python and R are one of the primary languages used in data science</li>
+<li>While dealing with sophiscated AI models and analyses, having the ability to communicate my findings clearly to stakeholders ensure that my work can be fully utilized and impactful towards the intended audiences</li>
+</ul>
+<p></p>
+</section>
+<section id="steps-that-i-would-take-to-improve-my-skills" class="level4">
+<h4 class="anchored" data-anchor-id="steps-that-i-would-take-to-improve-my-skills"><em>Steps that I would take to improve my skills</em></h4>
+<p style="text-align: justify;">
+</p><ul>
+<li>Have an open mind by experimenting with different data science tools and to seek mentorship from peers</li>
+<li>Pratice working on real-world datasets to gain practical experience (participate in DSPG, hackathons)</li>
+<li>Practice presenting my findings through reports, presentations, and visualizations as well as constant engage activity such as public speaking</li>
+</ul>
+<p></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

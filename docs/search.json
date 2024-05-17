@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Alister_DSPG24_Blog",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 16, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 13, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -21,10 +21,45 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alister_DSPG24_Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 16, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nAlister’s Introduction\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\nMay 16, 2024\n\n\nAlister Gan\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 13, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/StudentIntroduction/Alister_Introduction.html",
+    "href": "posts/StudentIntroduction/Alister_Introduction.html",
+    "title": "Alister’s Introduction",
+    "section": "",
+    "text": "Hi, my name is Alister! I originated from Malaysia and I started my journey in Iowa State University during the fall 2023. I’m a sophomore majoring in Data Science."
+  },
+  {
+    "objectID": "posts/StudentIntroduction/Alister_Introduction.html#personal-background",
+    "href": "posts/StudentIntroduction/Alister_Introduction.html#personal-background",
+    "title": "Alister’s Introduction",
+    "section": "",
+    "text": "Hi, my name is Alister! I originated from Malaysia and I started my journey in Iowa State University during the fall 2023. I’m a sophomore majoring in Data Science."
+  },
+  {
+    "objectID": "posts/StudentIntroduction/Alister_Introduction.html#interesting-fact-about-me",
+    "href": "posts/StudentIntroduction/Alister_Introduction.html#interesting-fact-about-me",
+    "title": "Alister’s Introduction",
+    "section": "Interesting fact about me!",
+    "text": "Interesting fact about me!\n\nI am an outdoor enthusiast who spent most of my free time playing sports and hanging out with friends. Occasionally, you will also find me spending hours reading books in local cafes, enjoying a break from the busyness of student life. I would also consider myself a huge movie person and I still recalled my roomates and I spent 10 hours binge watching, “Haunting of the Hill House” during the spring break."
+  },
+  {
+    "objectID": "posts/StudentIntroduction/Alister_Introduction.html#why-data-science",
+    "href": "posts/StudentIntroduction/Alister_Introduction.html#why-data-science",
+    "title": "Alister’s Introduction",
+    "section": "Why Data Science?",
+    "text": "Why Data Science?\n\n\nMy interest in Data Science stems from my deep passion to explore and figuring out the underlying meaning behind the data and the vast impact from data findings fascinate me. As people always say, “data is the new future”, pursuing a major in data science allows me to use my skillset in helping the communities to make better decisions through data. After graduation, I plan to pursue a career as a data scientist in the business and finance field. I am drawn to the intricate patterns and strategic decisions that data can unveil in financial markets and business operations. The ability to analyze complex datasets, uncover trends, and make data-driven decisions excites and motivates me. Also, I hope to be able to help the customers to make better financial decisions, identify frauds, reduce risks based on data-driven insights."
+  },
+  {
+    "objectID": "posts/StudentIntroduction/Alister_Introduction.html#goals-and-objectives",
+    "href": "posts/StudentIntroduction/Alister_Introduction.html#goals-and-objectives",
+    "title": "Alister’s Introduction",
+    "section": "Goals and Objectives",
+    "text": "Goals and Objectives\n\nMy experience with Data Science\n\nI have taken several introductory Data Science courses thus far and I have experience performing data analysis and data visualization on a customers purchasing behavior dataset taken from Kaggle. I am familiar with Pandas and Matplotlib using Python to perform data preprocessing, cleaning, analysis and visualization. Working with data in a team setting for the first time was an eye-opening experience as I get to collaborate with students from various background and getting insights and learning from one another. To make full use of my summer, I plan to enroll in several online courses for R and AI to buck up my skills.\n\n\n\nThree skills that I would like to learn from the DSPG program\n\nI would love to gain a deeper understanding on AI and its application on a real-world datasets. I would like to use this program as a stepping stone to allow me to apply AI under the guidance of mentors. Besides AI, I would like to use this opportunity to further enhance my programming skills specifically in Python and R. Lastly, beyond the technical skills, I hope to improve my ability to communicate and explain complex technical data findings to non-technical stakeholders.\n\n\n\nWhy the three skills\n\n\nApplying AI to real-world datasets allows me to understand practical challenges and develop solutions that are impactful and relevant to industry needs more efficiently\nHaving strong programming skills enable me to implement data analysis and visualization effectively as Python and R are one of the primary languages used in data science\nWhile dealing with sophiscated AI models and analyses, having the ability to communicate my findings clearly to stakeholders ensure that my work can be fully utilized and impactful towards the intended audiences\n\n\n\n\nSteps that I would take to improve my skills\n\n\nHave an open mind by experimenting with different data science tools and to seek mentorship from peers\nPratice working on real-world datasets to gain practical experience (participate in DSPG, hackathons)\nPractice presenting my findings through reports, presentations, and visualizations as well as constant engage activity such as public speaking"
   }
 ]
