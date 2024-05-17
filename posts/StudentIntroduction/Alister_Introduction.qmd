@@ -20,8 +20,9 @@ I am an outdoor enthusiast who spent most of my free time playing sports and han
 </p>
 
 <div style="display: flex; justify-content: space-between;align-items: flex-start;">
-  <img src="imgs/Soccer.png" style="width: 30%;height:auto; margin-right: 30px;"/>
-  <img src="imgs/cafe.jpg" style="width: 30%;height:auto;"/>
+  <img src="imgs/Soccer.png" style="width: 30%;height:auto; margin-right: 20px;"/>
+  <img src="imgs/cafe.jpg" style="width: 30%;height:auto;margin-right: 20px;"/>
+  <img src="imgs/haunting hill house.png" style="width: 27%;height:auto; margin-right: 30px;"/>
 </div>
 <hr>
 ## Why Data Science?
